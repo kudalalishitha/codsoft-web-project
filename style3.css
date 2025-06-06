@@ -1,0 +1,111 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set body background color and center the content */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa; /* Light background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Style the temperature converter container */
+.converter-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+/* Style for the title */
+h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #4CAF50; /* Green color */
+}
+
+/* Style for input fields */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 14px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input-group input:focus {
+    border-color: #4CAF50;
+}
+
+/* Style for select dropdown */
+.unit-selection {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.unit-selection select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.unit-selection select:focus {
+    border-color: #4CAF50;
+}
+
+/* Style the convert button */
+.convert-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.convert-btn:hover {
+    background-color: #45a049;
+}
+
+/* Style for the result section */
+.result {
+    margin-top: 20px;
+}
+
+.result h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+.result p {
+    font-size: 20px;
+    color: #4CAF50;
+}
